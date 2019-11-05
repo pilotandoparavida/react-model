@@ -1,0 +1,17 @@
+{
+  "name": "react-model",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Giovanna Garcia Basilio",
+    "email": "ggarciabas@gmail.com",
+    "url": "euelecavaloaco.github.io"
+  },
+  "maintainers": [
+    "Giovanna Garcia Basilio <ggarciabas@gmail.com> (euelecavaloaco.github.io)"
+  ],
+  "dependencies": {
+    "mongoose": "^5.7.3"
+  }
+}
