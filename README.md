@@ -5,3 +5,11 @@
 ## Repositório
 
 Aqui são definidos os modelos de banco utilizados em toda a estrutura de aplicações do projeto.
+
+## Colaboradores
+
+[@ggarciabas](https://github.com/ggarciabas)
+
+[@fritsche](https://github.com/fritsche)
+
+Esta implementação foi desenvolvida de forma voluntária para auxiliar na administração de turmas e alunos do projeto.
