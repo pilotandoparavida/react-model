@@ -19,6 +19,12 @@ const AdministradorSchema = new global.mongoose.Schema({
     hash: {
         type: String,
         default: '',
+    },
+    adm: {
+        type: global.mongoose.Schema.Types.ObjectId,
+        ref: 'Administrador',
+        required: false,
+        default: null
     }
 }, {
     timestamps: true,
