@@ -19,6 +19,12 @@ const AlunoTurmaSchema = new global.mongoose.Schema ({
     confirmar: {
         type: Boolean,
         require: true,
+    },
+    adm: {
+        type: global.mongoose.Schema.Types.ObjectId,
+        ref: 'Administrador',
+        required: false,
+        default: null
     }
 }, {
     timestamps: true,

@@ -52,6 +52,12 @@ const AlunoSchema = new global.mongoose.Schema({
         ref: 'Turma',
         required: false,
         default: null
+    },
+    adm: {
+        type: global.mongoose.Schema.Types.ObjectId,
+        ref: 'Administrador',
+        required: false,
+        default: null
     }
 }, {
     timestamps: true,

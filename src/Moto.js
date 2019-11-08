@@ -12,6 +12,12 @@ const MotoSchema = new global.mongoose.Schema ({
         ref: 'Aluno',
         required: true,
     },
+    adm: {
+        type: global.mongoose.Schema.Types.ObjectId,
+        ref: 'Administrador',
+        required: false,
+        default: null
+    }
 }, {
     timestamps: true,
 });

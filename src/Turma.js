@@ -5,6 +5,10 @@ const TurmaSchema = new global.mongoose.Schema ({
         type: Date, // mes/dia/ano
         required: true,
     },
+    datainscricao: {
+        type: Date, // mes/dia/ano
+        required: true,
+    },
     vagas: {
         type: Number,
         default: 20,
@@ -32,6 +36,12 @@ const TurmaSchema = new global.mongoose.Schema ({
     },
     googlemaps: {
         type: String,
+    },
+    adm: {
+        type: global.mongoose.Schema.Types.ObjectId,
+        ref: 'Administrador',
+        required: false,
+        default: null
     }
 }, {
     timestamps: true,
