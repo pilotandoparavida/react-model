@@ -40,7 +40,7 @@ const TurmaSchema = new global.mongoose.Schema ({
     adm: {
         type: global.mongoose.Schema.Types.ObjectId,
         ref: 'Administrador',
-        required: true,
+        required: false,
         default: null
     }
 }, {
